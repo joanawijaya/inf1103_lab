@@ -23,7 +23,7 @@ def process_delivery(current_total, new_value):
 
 
 # PART 3 : Calculates 10% tax for a single delivery
-def calculate_tax(amount):
+def calculate_tax(amount): 
     return amount * 0.10
 
 

@@ -1,0 +1,41 @@
+commit 17dcd144c62c3c46d54bc87d22423fc8020cdfef
+Author: Juyoie <joanahuang09@gmail.com>
+Date:   Thu Sep 17 23:47:36 2026 +0800
+
+    Add modular_auditor.py with tax calculation and reporting functions
+
+commit 201ca2a801a3cd1e7a4d83885c3a30688a031199
+Author: Juyoie <joanahuang09@gmail.com>
+Date:   Fri Sep 11 14:55:34 2026 +0800
+
+    audit
+
+commit 41bb8ff7bf1afa693b2c0660f54ccd2f940595f0
+Author: Juyoie <joanahuang09@gmail.com>
+Date:   Fri Sep 4 15:21:32 2026 +0800
+
+    last post
+
+commit 18e3f3844264c257d5faad3372f2bd181a481037
+Author: Juyoie <joanahuang09@gmail.com>
+Date:   Fri Sep 4 15:16:40 2026 +0800
+
+    Fourth Post
+
+commit 351514e36c0d06a67e77eeb2d24b8b71167ea41c
+Author: Juyoie <joanahuang09@gmail.com>
+Date:   Fri Sep 4 15:10:48 2026 +0800
+
+    third post
+
+commit c05d0a8f3ed96c77d97220f0731015d99e60a90c
+Author: Juyoie <joanahuang09@gmail.com>
+Date:   Fri Sep 4 15:05:42 2026 +0800
+
+    second post
+
+commit 830276a3c88aabad0da54c2795a211151b038770
+Author: Juyoie <joanahuang09@gmail.com>
+Date:   Fri Sep 4 14:53:07 2026 +0800
+
+    first post

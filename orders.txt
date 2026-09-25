@@ -1,0 +1,5 @@
+1001,laptop stand,5
+1002,wireless mouse,7
+1003,table,10
+1004,laptop stand,2
+1005,glass table,5
