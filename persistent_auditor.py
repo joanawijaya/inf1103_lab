@@ -43,7 +43,6 @@ def display_inventory(orders):
             print(f"{order[0]}, {order[1]}, {order[2]}")
     print("------------------------------\n")
 
-
 def main():
     orders = load_inventory()
 
