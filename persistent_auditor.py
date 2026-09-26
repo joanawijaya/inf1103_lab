@@ -75,7 +75,7 @@ def main():
 
         quantity = int(qty_input)
 
-        # Check if product already exists for consolidation
+        # Check if product already exists for consolidation + updating existing history 
         existing_order = None
         for order in orders:
             if order[1].lower() == product_name.lower():
