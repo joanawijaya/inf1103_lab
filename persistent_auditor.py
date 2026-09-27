@@ -42,7 +42,6 @@ def display_inventory(orders):
         for order in orders:
             print(f"{order[0]}, {order[1]}, {order[2]}")
     print("------------------------------\n")
-
 def main():
     orders = load_inventory()
 
@@ -74,7 +73,7 @@ def main():
 
         quantity = int(qty_input)
 
-        # Check if product already exists for consolidation + updating existing history 
+        # Check if product already exists for consolidation
         existing_order = None
         for order in orders:
             if order[1].lower() == product_name.lower():
