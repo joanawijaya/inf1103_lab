@@ -4,7 +4,7 @@ import os
 FILENAME = "inventory.json"
 
 # ==========================================
-# 1. Data Persistence Functions
+# 1. Data Persistence Functions from last week
 # ==========================================
 
 def load_inventory():
