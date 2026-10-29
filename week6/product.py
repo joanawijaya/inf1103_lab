@@ -39,10 +39,3 @@ class Product:
             "stock" : self.__stock
         }
 
-
-if __name__ == "__main__":
-        p = Product("111", "gaming chair", 100.0, 20)
-        p.display_information()
-        p.update_stock(50)
-        p.display_information()
-        p.update_stock(-5)
