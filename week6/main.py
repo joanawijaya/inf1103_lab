@@ -11,7 +11,6 @@ def load_inventory():
         try:
             with open(FILENAME, "r") as file:
                 data = json.load(file)
-            print("Inventory loaded successfully.")
             for item in data:
                 product = Product(item["id"], item["name"], item["price"], item["stock"])
                 inventory.add_product(product)
@@ -39,7 +38,10 @@ def add_product_menu(inventory):
         return
 
     product = Product(prod_id, name, price, stock)
-    inventory.add_product(product)
+    if inventory.add_product(product):
+        print("Product added successfully!")
+    else:
+        print("Error: Product ID already exists!")
 
 def update_stock_menu(inventory):
     print("\nUpdate Stock")

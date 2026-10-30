@@ -6,10 +6,9 @@ class Inventory:
     def add_product(self, product):
         for item in self.__products:
             if item.get_id().lower() == product.get_id().lower():
-                print("Error: Product ID already exists!")
-                return
+                return False
         self.__products.append(product)
-        print("Product added successfully!")
+        return True
     
     def find_product(self, product_id):
         for item in self.__products:

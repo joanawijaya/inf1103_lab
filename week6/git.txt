@@ -1,0 +1,115 @@
+commit a82be672035c295d0f904d51a376c23009002f1a
+Author: Juyoie <joanahuang09@gmail.com>
+Date:   Fri Oct 30 12:21:47 2026 +0800
+
+    main.py done connected with the oop
+
+commit 89b0eb13dd13b4cb67b6b7966a4d5d5051e17175
+Author: Juyoie <joanahuang09@gmail.com>
+Date:   Fri Oct 30 03:26:14 2026 +0800
+
+    Created Inventory Class
+
+commit c2ab5366c41e22ae01f07da9cbaab8332b0ca488
+Merge: 3c95d0b e4777b7
+Author: Juyoie <joanahuang09@gmail.com>
+Date:   Fri Oct 30 02:15:02 2026 +0800
+
+    Merge remote changes
+
+commit 3c95d0bd419737e4d49c6728ab5457f9207f4adc
+Author: Juyoie <joanahuang09@gmail.com>
+Date:   Fri Oct 30 02:11:58 2026 +0800
+
+    Created Product Class
+
+commit aa4ea65039f768b8791ffff5a7c557a129a94ea4
+Author: Juyoie <joanahuang09@gmail.com>
+Date:   Thu Oct 8 01:37:46 2026 +0800
+
+    for week 5
+
+commit e4777b7e410c855b42ddc8ab0c38012ad1bf6945
+Author: joanawijaya <2604246@sit.singaporetech.edu.sg>
+Date:   Thu Oct 8 00:34:33 2026 +0800
+
+    Update comment
+
+commit 9375819533749aaa9fa4c403fcbc455c4b47688e
+Author: joanawijaya <2604246@sit.singaporetech.edu.sg>
+Date:   Thu Oct 8 00:31:30 2026 +0800
+
+    Add files via upload
+
+commit 4e3d487375991483223b91cf76855dedc0781260
+Merge: edfb154 ad1a846
+Author: Juyoie <joanahuang09@gmail.com>
+Date:   Mon Sep 28 03:16:08 2026 +0800
+
+    Resolved merge conflict in order processing
+
+commit edfb154b5bf3cec7bc8dfe06509c63bde3379320
+Author: Juyoie <joanahuang09@gmail.com>
+Date:   Sat Sep 26 23:31:37 2026 +0800
+
+    update persistent_auditor
+
+commit 0b9b4428b072f3d55cdb6587db4bed27c4b0c468
+Author: Juyoie <joanahuang09@gmail.com>
+Date:   Sat Sep 26 23:07:35 2026 +0800
+
+    List is successfully tracking history and list is verified to be true
+
+commit ad1a8464f538f0746f41a4ec57957a662423acf8
+Author: joanawijaya <2604246@sit.singaporetech.edu.sg>
+Date:   Fri Sep 25 15:51:20 2026 +0800
+
+    Add files via upload
+
+commit 40d15efe599f1c5fe0a08a6aa7e7f2e9780d80af
+Author: Juyoie <joanahuang09@gmail.com>
+Date:   Fri Sep 25 15:47:54 2026 +0800
+
+    load inventory is working
+
+commit 17dcd144c62c3c46d54bc87d22423fc8020cdfef
+Author: Juyoie <joanahuang09@gmail.com>
+Date:   Thu Sep 17 23:47:36 2026 +0800
+
+    Add modular_auditor.py with tax calculation and reporting functions
+
+commit 201ca2a801a3cd1e7a4d83885c3a30688a031199
+Author: Juyoie <joanahuang09@gmail.com>
+Date:   Fri Sep 11 14:55:34 2026 +0800
+
+    audit
+
+commit 41bb8ff7bf1afa693b2c0660f54ccd2f940595f0
+Author: Juyoie <joanahuang09@gmail.com>
+Date:   Fri Sep 4 15:21:32 2026 +0800
+
+    last post
+
+commit 18e3f3844264c257d5faad3372f2bd181a481037
+Author: Juyoie <joanahuang09@gmail.com>
+Date:   Fri Sep 4 15:16:40 2026 +0800
+
+    Fourth Post
+
+commit 351514e36c0d06a67e77eeb2d24b8b71167ea41c
+Author: Juyoie <joanahuang09@gmail.com>
+Date:   Fri Sep 4 15:10:48 2026 +0800
+
+    third post
+
+commit c05d0a8f3ed96c77d97220f0731015d99e60a90c
+Author: Juyoie <joanahuang09@gmail.com>
+Date:   Fri Sep 4 15:05:42 2026 +0800
+
+    second post
+
+commit 830276a3c88aabad0da54c2795a211151b038770
+Author: Juyoie <joanahuang09@gmail.com>
+Date:   Fri Sep 4 14:53:07 2026 +0800
+
+    first post
