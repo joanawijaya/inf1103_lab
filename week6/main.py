@@ -111,3 +111,18 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+"""
+reflection
+A class is a blueprint, and an object is one actual thing made from it.
+Product is a main noun in the system, and every product shares the same data and behaviour.
+Product ID, name, price and stock.
+So the Product can check the value (like rejecting negatives) before changing it, instead of anyone setting it freely.
+The data is private, and other code only uses it through public methods.
+To represent and manage one product.
+To manage the collection of products (add, find, search, display).
+Each class has one job: Product handles one product, Inventory handles the list, and main.py handles the menu.
+The constructor arguments and the public methods, like update_stock() and display_information().
+How the data is stored and how the checks and formatting work inside.
+"""
