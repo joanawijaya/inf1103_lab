@@ -1,0 +1,20 @@
+[
+    {
+        "id": "111",
+        "name": "gaming chair",
+        "price": 100.0,
+        "stock": 20
+    },
+    {
+        "id": "112",
+        "name": "gaming table",
+        "price": 80.0,
+        "stock": 12
+    },
+    {
+        "id": "113",
+        "name": "mouse",
+        "price": 70.0,
+        "stock": 120
+    }
+]
