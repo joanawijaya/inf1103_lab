@@ -1,20 +1,18 @@
 [
     {
-        "id": "111",
-        "name": "gaming chair",
-        "price": 100.0,
-        "stock": 20
-    },
-    {
         "id": "112",
-        "name": "gaming table",
-        "price": 80.0,
-        "stock": 12
+        "name": "Vaseline",
+        "price": 23.0,
+        "stock": 34,
+        "type": "physical",
+        "weight": 15.0
     },
     {
-        "id": "113",
-        "name": "mouse",
-        "price": 70.0,
-        "stock": 120
+        "id": "233",
+        "name": "Chip",
+        "price": 14.0,
+        "stock": 10,
+        "type": "digital",
+        "download_size": 524.0
     }
 ]

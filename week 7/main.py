@@ -2,7 +2,7 @@ import json
 import os
 from product import Product
 from physical_product import PhysicalProduct
-from digital_product import DigitalProduct
+from DigitalProduct import DigitalProduct
 from inventory import Inventory
 
 FILENAME = "inventory.json"
