@@ -1,0 +1,18 @@
+[
+    {
+        "id": "112",
+        "name": "Vaseline",
+        "price": 23.0,
+        "stock": 34,
+        "type": "physical",
+        "weight": 15.0
+    },
+    {
+        "id": "233",
+        "name": "Chip",
+        "price": 14.0,
+        "stock": 10,
+        "type": "digital",
+        "download_size": 524.0
+    }
+]

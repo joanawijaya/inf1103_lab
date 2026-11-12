@@ -1,3 +1,45 @@
+commit 74830242d8107c4de0225bce8e8b2dc9070d2307
+Author: Juyoie <joanahuang09@gmail.com>
+Date:   Fri Nov 6 23:20:14 2026 +0800
+
+    finish
+
+commit 3dad8eddb7b5f03cd3f9c2a548f82e6bada436d7
+Author: Juyoie <joanahuang09@gmail.com>
+Date:   Fri Nov 6 23:16:10 2026 +0800
+
+    edited main.py
+
+commit f2a46ff5476165ce0e097f92d23b59daef63d2fd
+Author: Juyoie <joanahuang09@gmail.com>
+Date:   Fri Nov 6 23:13:58 2026 +0800
+
+    tried to test the abstract, and oops forgot to commit the first 2 steps, there is digitalproduct.py && physical_product.py before
+
+commit 748311a13f74fbdd09d516959d733ce77798f0e8
+Author: Juyoie <joanahuang09@gmail.com>
+Date:   Fri Nov 6 23:05:19 2026 +0800
+
+    Created can_be_shipped.py
+
+commit 2767493cb80d24de4751bc63b97111e02a56a1db
+Author: Juyoie <joanahuang09@gmail.com>
+Date:   Fri Nov 6 22:18:17 2026 +0800
+
+    Created subclass of DigitalProduct and added abstract to product
+
+commit 49424f9b7c2dd407d81cd78c7ea6dcaedde76fc1
+Author: Juyoie <joanahuang09@gmail.com>
+Date:   Fri Oct 30 15:56:30 2026 +0800
+
+    reflection lab 8
+
+commit 8f8b69351574662cfff421bdd39db77341e54aca
+Author: Juyoie <joanahuang09@gmail.com>
+Date:   Fri Oct 30 15:55:37 2026 +0800
+
+    fix some errors
+
 commit a82be672035c295d0f904d51a376c23009002f1a
 Author: Juyoie <joanahuang09@gmail.com>
 Date:   Fri Oct 30 12:21:47 2026 +0800
