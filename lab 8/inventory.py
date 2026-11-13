@@ -10,7 +10,7 @@ class Inventory:
         self.__products.append(product)
         return True
     
-   def remove_product(self, product_id: str) -> bool:
+    def remove_product(self, product_id: str) -> bool:
         """Remove the reference only; the Product object itself is not destroyed."""
         product = self.find_product(product_id)
         if product is None:
