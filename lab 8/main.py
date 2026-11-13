@@ -4,35 +4,46 @@ from product import Product
 from physical_product import PhysicalProduct
 from DigitalProduct import DigitalProduct
 from inventory import Inventory
+from supplier import Supplier
 
 FILENAME = "inventory.json"
 
 
-def create_product_from_dict(item):
+def get_or_create_supplier(data: dict, suppliers: dict[str, Supplier]) -> Supplier:
+    """Reuse one Supplier object for every product that shares the same supplier_id."""
+    supplier_id = data["supplier_id"]
+    if supplier_id not in suppliers:
+        suppliers[supplier_id] = Supplier(supplier_id, data["name"], data["contact_email"])
+    return suppliers[supplier_id]
+
+
+def create_product_from_dict(item: dict, suppliers: dict[str, Supplier]) -> Product | None:
     """Build the correct subclass using the saved type."""
+    supplier = get_or_create_supplier(item["supplier"], suppliers)
     if item["type"] == "physical":
-        return PhysicalProduct(item["id"], item["name"], item["price"], item["stock"], item["weight"])
+        return PhysicalProduct(item["id"], item["name"], item["price"], item["stock"], supplier, item["weight"])
     elif item["type"] == "digital":
-        return DigitalProduct(item["id"], item["name"], item["price"], item["stock"], item["download_size"])
+        return DigitalProduct(item["id"], item["name"], item["price"], item["stock"], supplier, item["download_size"])
     return None
 
 
-def load_inventory():
+def load_inventory() -> tuple[Inventory, dict[str, Supplier]]:
     inventory = Inventory()
+    suppliers: dict[str, Supplier] = {}
     if os.path.exists(FILENAME):
         try:
             with open(FILENAME, "r") as file:
                 data = json.load(file)
             print("Inventory loaded successfully.")
             for item in data:
-                product = create_product_from_dict(item)
+                product = create_product_from_dict(item, suppliers)
                 if product is not None:
                     inventory.add_product(product)
         except (json.JSONDecodeError, KeyError):
             print("inventory.json was empty or corrupted. Starting with an empty inventory.")
     else:
         print("inventory.json not found. Starting with an empty inventory.")
-    return inventory
+    return inventory, suppliers
 
 
 def save_inventory(inventory):
@@ -41,7 +52,21 @@ def save_inventory(inventory):
     print("Inventory saved successfully.")
 
 
-def add_product_menu(inventory):
+def choose_supplier(suppliers: dict[str, Supplier]) -> Supplier | None:
+    """Pick an existing supplier by ID, or create a new one independently of any product."""
+    supplier_id = input("Supplier ID: ").strip()
+    if supplier_id in suppliers:
+        return suppliers[supplier_id]
+    name = input("New supplier name: ").strip()
+    email = input("Supplier contact email: ").strip()
+    if not supplier_id or not name:
+        print("Supplier ID and name are required.")
+        return None
+    suppliers[supplier_id] = Supplier(supplier_id, name, email)
+    return suppliers[supplier_id]
+
+
+def add_product_menu(inventory, suppliers):
     print("\nAdd New Product")
     print("1. Physical Product")
     print("2. Digital Product")
@@ -52,16 +77,19 @@ def add_product_menu(inventory):
 
     prod_id = input("Product ID: ").strip()
     name = input("Product Name: ").strip()
+    supplier = choose_supplier(suppliers)
+    if supplier is None:
+        return
 
     try:
         price = float(input("Price: "))
         stock = int(input("Stock Quantity: "))
         if kind == "1":
             weight = float(input("Weight (kg): "))
-            product = PhysicalProduct(prod_id, name, price, stock, weight)
+            product = PhysicalProduct(prod_id, name, price, stock, supplier, weight)
         else:
             size = float(input("Download size (MB): "))
-            product = DigitalProduct(prod_id, name, price, stock, size)
+            product = DigitalProduct(prod_id, name, price, stock, supplier, size)
     except ValueError:
         print("Error: Invalid number entered.")
         return
@@ -110,7 +138,7 @@ def main():
     print("INVENTORY MANAGEMENT SYSTEM")
     print("=========================================")
 
-    inventory = load_inventory()
+    inventory, suppliers = load_inventory()
 
     while True:
         print("\n---------- MENU ----------")
@@ -127,7 +155,7 @@ def main():
         if choice == '1':
             inventory.display_all()
         elif choice == '2':
-            add_product_menu(inventory)
+            add_product_menu(inventory, suppliers)
         elif choice == '3':
             update_stock_menu(inventory)
         elif choice == '4':
