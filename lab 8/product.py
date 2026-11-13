@@ -1,4 +1,4 @@
-ffrom abc import ABC, abstractmethod
+from abc import ABC, abstractmethod
 
 from supplier import Supplier
 
