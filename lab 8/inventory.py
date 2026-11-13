@@ -10,11 +10,18 @@ class Inventory:
         self.__products.append(product)
         return True
     
-    def find_product(self, product_id):
+   def remove_product(self, product_id: str) -> bool:
+        """Remove the reference only; the Product object itself is not destroyed."""
+        product = self.find_product(product_id)
+        if product is None:
+            return False
+        self.__products.remove(product)
+        return True
+
+    def find_product(self, product_id: str) -> Product | None:
         for item in self.__products:
             if item.get_id().lower() == product_id.lower():
-                return item
-        return None 
+                return 
 
     def search_product(self, query):
         results = []
