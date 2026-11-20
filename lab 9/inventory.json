@@ -1,0 +1,15 @@
+[
+    {
+        "id": "220",
+        "name": "Ergonomic Chair",
+        "price": 120.0,
+        "stock": 23,
+        "supplier": {
+            "supplier_id": "WE-123",
+            "name": "WL-123",
+            "contact_email": "WL123@icloud.id"
+        },
+        "type": "physical",
+        "weight": 120.0
+    }
+]

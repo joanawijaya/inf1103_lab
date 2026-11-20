@@ -1,0 +1,217 @@
+commit 13dc84be8fbc72594e416ec9a45fa7ec2e9d1eb3
+Author: Juyoie <joanahuang09@gmail.com>
+Date:   Fri Nov 13 14:37:26 2026 +0800
+
+    update main.py
+
+commit facbc82c91613459652d596ea17c515aa921fe71
+Author: Juyoie <joanahuang09@gmail.com>
+Date:   Fri Nov 13 14:10:50 2026 +0800
+
+    created order.py
+
+commit c99bd914825072235db4cff20da9fc7727968cac
+Author: Juyoie <joanahuang09@gmail.com>
+Date:   Fri Nov 13 13:15:04 2026 +0800
+
+    created order_line.py
+
+commit bb01938b75483c81dbd9f5807613f9bb45e59c14
+Author: Juyoie <joanahuang09@gmail.com>
+Date:   Fri Nov 13 13:01:17 2026 +0800
+
+    add remove_product and find_product function in inventory.py
+
+commit 897e4999abb359b5a90c9a5100c0361e32158100
+Author: Juyoie <joanahuang09@gmail.com>
+Date:   Fri Nov 13 12:59:16 2026 +0800
+
+    import supplier.py to DigitalProduct.py  and updated the init
+
+commit 2211e2c59ffcdd44fe0cd7bb5b14feddedfb4a77
+Author: Juyoie <joanahuang09@gmail.com>
+Date:   Fri Nov 13 12:52:54 2026 +0800
+
+    import supplier.py to physical_product.py and updated the init
+
+commit 13160e8393a8113b5cd39c08d600f3b33f2e20bc
+Author: Juyoie <joanahuang09@gmail.com>
+Date:   Fri Nov 13 12:47:14 2026 +0800
+
+    fixing typo in product.py
+
+commit e15331e74eaef4313deb967cb72ac5a8c06699cf
+Author: Juyoie <joanahuang09@gmail.com>
+Date:   Fri Nov 13 12:46:48 2026 +0800
+
+    imports supplier.py to product.py
+
+commit 81e614e0bfe189a059a7290507021768155bc9c4
+Author: Juyoie <joanahuang09@gmail.com>
+Date:   Fri Nov 13 12:44:41 2026 +0800
+
+    add supplier.py class
+
+commit b3dbbc600d3faa5c83ba962af5bfe5ac1dbbe85b
+Author: Juyoie <joanahuang09@gmail.com>
+Date:   Thu Nov 12 11:36:44 2026 +0800
+
+    Imported files from lab 7, and created folder for lab 8
+
+commit 74830242d8107c4de0225bce8e8b2dc9070d2307
+Author: Juyoie <joanahuang09@gmail.com>
+Date:   Fri Nov 6 23:20:14 2026 +0800
+
+    finish
+
+commit 3dad8eddb7b5f03cd3f9c2a548f82e6bada436d7
+Author: Juyoie <joanahuang09@gmail.com>
+Date:   Fri Nov 6 23:16:10 2026 +0800
+
+    edited main.py
+
+commit f2a46ff5476165ce0e097f92d23b59daef63d2fd
+Author: Juyoie <joanahuang09@gmail.com>
+Date:   Fri Nov 6 23:13:58 2026 +0800
+
+    tried to test the abstract, and oops forgot to commit the first 2 steps, there is digitalproduct.py && physical_product.py before
+
+commit 748311a13f74fbdd09d516959d733ce77798f0e8
+Author: Juyoie <joanahuang09@gmail.com>
+Date:   Fri Nov 6 23:05:19 2026 +0800
+
+    Created can_be_shipped.py
+
+commit 2767493cb80d24de4751bc63b97111e02a56a1db
+Author: Juyoie <joanahuang09@gmail.com>
+Date:   Fri Nov 6 22:18:17 2026 +0800
+
+    Created subclass of DigitalProduct and added abstract to product
+
+commit 49424f9b7c2dd407d81cd78c7ea6dcaedde76fc1
+Author: Juyoie <joanahuang09@gmail.com>
+Date:   Fri Oct 30 15:56:30 2026 +0800
+
+    reflection lab 8
+
+commit 8f8b69351574662cfff421bdd39db77341e54aca
+Author: Juyoie <joanahuang09@gmail.com>
+Date:   Fri Oct 30 15:55:37 2026 +0800
+
+    fix some errors
+
+commit a82be672035c295d0f904d51a376c23009002f1a
+Author: Juyoie <joanahuang09@gmail.com>
+Date:   Fri Oct 30 12:21:47 2026 +0800
+
+    main.py done connected with the oop
+
+commit 89b0eb13dd13b4cb67b6b7966a4d5d5051e17175
+Author: Juyoie <joanahuang09@gmail.com>
+Date:   Fri Oct 30 03:26:14 2026 +0800
+
+    Created Inventory Class
+
+commit c2ab5366c41e22ae01f07da9cbaab8332b0ca488
+Merge: 3c95d0b e4777b7
+Author: Juyoie <joanahuang09@gmail.com>
+Date:   Fri Oct 30 02:15:02 2026 +0800
+
+    Merge remote changes
+
+commit 3c95d0bd419737e4d49c6728ab5457f9207f4adc
+Author: Juyoie <joanahuang09@gmail.com>
+Date:   Fri Oct 30 02:11:58 2026 +0800
+
+    Created Product Class
+
+commit aa4ea65039f768b8791ffff5a7c557a129a94ea4
+Author: Juyoie <joanahuang09@gmail.com>
+Date:   Thu Oct 8 01:37:46 2026 +0800
+
+    for week 5
+
+commit e4777b7e410c855b42ddc8ab0c38012ad1bf6945
+Author: joanawijaya <2604246@sit.singaporetech.edu.sg>
+Date:   Thu Oct 8 00:34:33 2026 +0800
+
+    Update comment
+
+commit 9375819533749aaa9fa4c403fcbc455c4b47688e
+Author: joanawijaya <2604246@sit.singaporetech.edu.sg>
+Date:   Thu Oct 8 00:31:30 2026 +0800
+
+    Add files via upload
+
+commit 4e3d487375991483223b91cf76855dedc0781260
+Merge: edfb154 ad1a846
+Author: Juyoie <joanahuang09@gmail.com>
+Date:   Mon Sep 28 03:16:08 2026 +0800
+
+    Resolved merge conflict in order processing
+
+commit edfb154b5bf3cec7bc8dfe06509c63bde3379320
+Author: Juyoie <joanahuang09@gmail.com>
+Date:   Sat Sep 26 23:31:37 2026 +0800
+
+    update persistent_auditor
+
+commit 0b9b4428b072f3d55cdb6587db4bed27c4b0c468
+Author: Juyoie <joanahuang09@gmail.com>
+Date:   Sat Sep 26 23:07:35 2026 +0800
+
+    List is successfully tracking history and list is verified to be true
+
+commit ad1a8464f538f0746f41a4ec57957a662423acf8
+Author: joanawijaya <2604246@sit.singaporetech.edu.sg>
+Date:   Fri Sep 25 15:51:20 2026 +0800
+
+    Add files via upload
+
+commit 40d15efe599f1c5fe0a08a6aa7e7f2e9780d80af
+Author: Juyoie <joanahuang09@gmail.com>
+Date:   Fri Sep 25 15:47:54 2026 +0800
+
+    load inventory is working
+
+commit 17dcd144c62c3c46d54bc87d22423fc8020cdfef
+Author: Juyoie <joanahuang09@gmail.com>
+Date:   Thu Sep 17 23:47:36 2026 +0800
+
+    Add modular_auditor.py with tax calculation and reporting functions
+
+commit 201ca2a801a3cd1e7a4d83885c3a30688a031199
+Author: Juyoie <joanahuang09@gmail.com>
+Date:   Fri Sep 11 14:55:34 2026 +0800
+
+    audit
+
+commit 41bb8ff7bf1afa693b2c0660f54ccd2f940595f0
+Author: Juyoie <joanahuang09@gmail.com>
+Date:   Fri Sep 4 15:21:32 2026 +0800
+
+    last post
+
+commit 18e3f3844264c257d5faad3372f2bd181a481037
+Author: Juyoie <joanahuang09@gmail.com>
+Date:   Fri Sep 4 15:16:40 2026 +0800
+
+    Fourth Post
+
+commit 351514e36c0d06a67e77eeb2d24b8b71167ea41c
+Author: Juyoie <joanahuang09@gmail.com>
+Date:   Fri Sep 4 15:10:48 2026 +0800
+
+    third post
+
+commit c05d0a8f3ed96c77d97220f0731015d99e60a90c
+Author: Juyoie <joanahuang09@gmail.com>
+Date:   Fri Sep 4 15:05:42 2026 +0800
+
+    second post
+
+commit 830276a3c88aabad0da54c2795a211151b038770
+Author: Juyoie <joanahuang09@gmail.com>
+Date:   Fri Sep 4 14:53:07 2026 +0800
+
+    first post
