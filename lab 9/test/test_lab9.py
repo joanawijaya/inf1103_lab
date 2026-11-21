@@ -6,8 +6,7 @@ import tempfile
 import unittest
 from unittest.mock import patch
 
-from discount_strategy import (BulkDiscount, DiscountStrategy, NoDiscount,
-                               PercentageDiscount, StudentDiscount)
+from discount_strategy import (BulkDiscount, DiscountStrategy, NoDiscount, PercentageDiscount, StudentDiscount)
 from DigitalProduct import DigitalProduct
 from inventory import Inventory
 from main import get_positive_float, load_products

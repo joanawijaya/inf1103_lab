@@ -21,7 +21,8 @@ class Inventory:
     def find_product(self, product_id: str) -> Product | None:
         for item in self.__products:
             if item.get_id().lower() == product_id.lower():
-                return item.
+                return item
+        return None
 
     def search_product(self, query):
         results = []

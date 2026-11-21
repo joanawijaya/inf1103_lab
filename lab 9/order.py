@@ -6,7 +6,7 @@ from discount_strategy import DiscountStrategy, NoDiscount
 class Order:
     """Composition: the Order creates and manages its own OrderLines."""
 
-    def __init__(self, order_id, discount:DiscountStrategy | None = None) -> None: str) -> None:
+    def __init__(self, order_id, discount:DiscountStrategy | None = None) -> None:
         self.__order_id: str = order_id
         self.__order_lines: list[OrderLine] = []
         self.__discount: DiscountStrategy = discount if discount is not None else NoDiscount()
