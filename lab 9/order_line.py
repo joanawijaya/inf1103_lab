@@ -5,6 +5,9 @@ class OrderLine:
     """Part of an Order (composition). Should only be created by Order."""
 
     def __init__(self, product: Product, quantity: int) -> None:
+        # The OrderLine protects its own rule, so callers don't have to.
+        if quantity <= 0:
+            raise ValueError("Quantity must be greater than zero.")
         # Association: the line refers to a Product but does not own it.
         self.__product: Product = product
         self.__quantity: int = quantity
